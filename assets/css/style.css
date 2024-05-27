@@ -29,9 +29,14 @@ header a {
     color: inherit;
 }
 
+nav a {
+    font-size: small;
+    margin-right: 4px;
+}
+
 #banner {
-    font-size: 200%;
-    margin: 15px 5px;
+    font-size: 170%;
+    margin: 18px 5px;
     text-transform: uppercase;
 }
 
@@ -46,4 +51,23 @@ main {
 footer {
     min-height: 10vh;
     background-color: lightgoldenrodyellow;
+}
+
+/* Media query: tablets and larger (768px an up)*/
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display:flex;
+        margin: 35px 50px;    
+    }
+
+    nav a {
+        font-size: 150%;
+        margin: 20px 10px;
+    }
+
+    #banner {
+        font-size: 300%;
+    }
 }
