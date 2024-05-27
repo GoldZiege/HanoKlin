@@ -12,8 +12,17 @@ body {
 
 /* Header */
 header {
+    min-height: 10vh;
     background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+header a {
+    text-decoration: none;
+}
+
 
 /* Main Content */
 main {
@@ -24,5 +33,6 @@ main {
 
 /* Footer */
 footer {
+    min-height: 10vh;
     background-color: lightgoldenrodyellow;
 }
