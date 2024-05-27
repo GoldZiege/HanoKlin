@@ -50,7 +50,15 @@ main {
 /* Footer */
 footer {
     min-height: 10vh;
-    background-color: lightgoldenrodyellow;
+    background-color: #089BF5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    font-size: 180%;
+    color: #ffffff;
 }
 
 /* Media query: tablets and larger (768px an up)*/
