@@ -71,13 +71,13 @@ main {
     font-size: 120%;
 }
 
-/* Open-Hours Section*/
+/* Contact Us Section*/
 .section-headline {
     background-color: #089BF5;
     color: #ffffff;
 }
 
-#openhours > ul {
+#consultation-hours > ul {
     color:#089BF5;
     margin: 0 10px;
     list-style-type: none;
