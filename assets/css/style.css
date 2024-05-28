@@ -53,8 +53,22 @@ main {
 /* Hero Section*/
 #hero {
     background: url("../images/bulldog.jpg") no-repeat center center/cover;
-    height: 600px;
+    height: 500px;
     width:100%;
+}
+
+#greeting {
+    z-index: 2;
+    background-color: #089BF5;
+    font-size: 80%;
+    color: #ffffff;
+    width:200px;
+    margin:20px 0px;
+    position:absolute;
+}
+
+#greeting > p{
+    font-size: 120%;
 }
 
 /* Footer */
@@ -87,5 +101,14 @@ footer a {
 
     #banner {
         font-size: 300%;
+    }
+
+    /* Main Content */
+    main{
+        margin-top: 108.5px;
+    }
+
+    #hero {
+        height:700px;
     }
 }
