@@ -3,20 +3,20 @@
 
 * {
     padding: 0;
-    margin:0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body {
     min-height: 100vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
 }
 
 /* Header */
 header {
-    position:fixed;
+    position: fixed;
     width: 100%;
     min-height: 10vh;
     color: #ffffff;
@@ -47,14 +47,14 @@ main {
     background-color: #ffffff;
     flex: 1 0 auto;
     margin-top: 77px;
-    
+
 }
 
 /* Hero Section*/
 #hero {
     background: url("../images/bulldog.jpg") no-repeat center center/cover;
     height: 500px;
-    width:100%;
+    width: 100%;
 }
 
 #greeting {
@@ -62,23 +62,29 @@ main {
     background-color: #089BF5;
     font-size: 80%;
     color: #ffffff;
-    width:200px;
-    margin:20px 0px;
-    position:absolute;
+    width: 200px;
+    margin: 20px 0px;
+    position: absolute;
 }
 
-#greeting > p{
+#greeting>p {
     font-size: 120%;
 }
 
 /* Contact Us Section*/
+#contact-points {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .section-headline {
     background-color: #089BF5;
     color: #ffffff;
 }
 
-#consultation-hours > ul {
-    color:#089BF5;
+#consultation-hours>ul {
+    color: #089BF5;
     margin: 0 10px;
     list-style-type: none;
 }
@@ -104,8 +110,8 @@ footer a {
 
     /* Header */
     nav {
-        display:flex;
-        margin: 35px 50px;    
+        display: flex;
+        margin: 35px 50px;
     }
 
     nav a {
@@ -118,11 +124,17 @@ footer a {
     }
 
     /* Main Content */
-    main{
+    main {
         margin-top: 108.5px;
     }
-
+    /* Hero Section */
     #hero {
-        height:700px;
+        height: 700px;
+    }
+
+    /* Contact Us Section */
+    #contact-points {
+        flex-direction: row;
+
     }
 }
