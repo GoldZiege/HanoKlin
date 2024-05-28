@@ -89,6 +89,11 @@ main {
     list-style-type: none;
 }
 
+#map iframe{
+    height:300px;
+    width:100%;
+}
+
 /* Footer */
 footer {
     min-height: 10vh;
