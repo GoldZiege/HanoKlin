@@ -72,7 +72,7 @@ main {
 }
 
 /* Open-Hours Section*/
-#openhours >div {
+.section-headline {
     background-color: #089BF5;
     color: #ffffff;
 }
