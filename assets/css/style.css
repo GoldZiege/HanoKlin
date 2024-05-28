@@ -71,6 +71,18 @@ main {
     font-size: 120%;
 }
 
+/* Open-Hours Section*/
+#openhours >div {
+    background-color: #089BF5;
+    color: #ffffff;
+}
+
+#openhours > ul {
+    color:#089BF5;
+    margin: 0 10px;
+    list-style-type: none;
+}
+
 /* Footer */
 footer {
     min-height: 10vh;
@@ -84,6 +96,8 @@ footer a {
     font-size: 180%;
     color: #ffffff;
 }
+
+
 
 /* Media query: tablets and larger (768px an up)*/
 @media screen and (min-width: 768px) {
