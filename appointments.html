@@ -26,7 +26,40 @@
         </nav>
     </header>
 
-    <main>Main Content</main>
+    <main>
+        <!--Appointment Form-->
+        <section id="appointments">
+            <form action="https://formdump.codeinstitute.net" method="POST" id="appointments-form">
+                <h2>Request an Appointment</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="appointments-text" required>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="appointments-text" required>
+                <br>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" class="appointments-text" required>
+                <br>
+                <label for="pet-name">Pets Name</label>
+                <input type="text" name="pet-name" id="pet-name" class="appointments-text" required>
+                <label for="pet-species">Pets Species</label>
+                <input type="text" list="species" id="pet-species" name="pet-species" class="appointments-text" required>
+                <datalist id="species">
+                    <option value="Dog"></option>
+                    <option value="Cat"></option>
+                    <option value="Rabbit"></option>
+                    <option value="Guinea Pig"></option>
+                    <option value="Hamster"></option>
+                </datalist>
+                <br>
+                <label for="preferred-date">Preferred Date</label>
+                <input type="date" id="preferred-date" name="preferred-date">
+                <br>
+                <label for="symptoms">Symptoms</label>
+                <textarea name="symptoms" id="symptoms" placeholder="Give us some short info about your pets symptoms" cols="30" rows="7"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
 
     <footer>
         <div><a href="https://www.facebook.com" target="_blank" rel="noopener"
