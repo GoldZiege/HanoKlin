@@ -95,6 +95,25 @@ main {
     width:100%;
 }
 
+/* Services Section */
+#services-gallery{
+    display:flex;
+    flex-direction: column;
+}
+
+.services-picture > img{
+    width: 100%;
+    border: 1px solid #089BF5;
+}
+
+.services-picture > h3{
+    position: relative;
+    background-color: #089BF5;
+    color: #ffffff;
+    bottom: 50px;
+    width:fit-content;
+}
+
 /* Footer */
 footer {
     min-height: 10vh;
@@ -143,4 +162,17 @@ footer a {
         flex-direction: row;
 
     }
+
+    /* Services Section */
+    #services-gallery{
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+    }
+
+    .services-picture{
+        width:400px;
+        
+    }
+
 }
