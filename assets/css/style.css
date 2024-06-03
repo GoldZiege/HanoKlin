@@ -166,6 +166,13 @@ footer a {
         height: 700px;
     }
 
+    #greeting {
+        font-size: 100%;
+        width: 300px;
+        margin: 40px 0px;
+        padding-left: 10px;
+    }
+
     /* Contact Us Section */
     #contact-points {
         flex-direction: row;
