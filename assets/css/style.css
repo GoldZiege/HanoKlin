@@ -79,6 +79,10 @@ main {
 
 }
 
+#contact-points > div {
+    margin-bottom: 30px;
+}
+
 .section-headline {
     background-color: #089BF5;
     color: #ffffff;
@@ -88,6 +92,11 @@ main {
     color: #089BF5;
     margin: 0 10px;
     list-style-type: none;
+}
+
+#address > p {
+    color: #089BF5;
+    margin: 0 10px;
 }
 
 #map iframe{
