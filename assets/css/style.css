@@ -123,6 +123,32 @@ main {
     width:fit-content;
 }
 
+/* Appointments Section */
+form {
+    margin: 10px 10px;
+}
+
+#appointments > h2 {
+    background-color: #089BF5;
+    color: #ffffff;
+}
+
+form > label {
+    color:#089BF5;
+}
+
+.appointments-text {
+    border: 1px solid #089BF5;
+    border-radius: 3px;    
+}
+
+.appointments-button {
+    background-color: #089BF5;
+    color: #ffffff;
+    border-radius: 3px;
+    width: 100px;
+}
+
 /* Footer */
 footer {
     min-height: 10vh;

@@ -29,8 +29,8 @@
     <main>
         <!--Appointment Form-->
         <section id="appointments">
+            <h2>Request an Appointment</h2>
             <form action="https://formdump.codeinstitute.net" method="POST" id="appointments-form">
-                <h2>Request an Appointment</h2>
                 <label for="first-name">First Name</label>
                 <br>
                 <input type="text" name="first_name" id="first-name" class="appointments-text" required>
@@ -60,12 +60,13 @@
                 <br>
                 <label for="preferred-date">Preferred Date</label>
                 <br>
-                <input type="date" id="preferred-date" name="preferred-date">
+                <input type="date" id="preferred-date" name="preferred-date" class="appointments-text">
                 <br>
                 <label for="symptoms">Symptoms</label>
                 <br>
-                <textarea name="symptoms" id="symptoms" placeholder="Give us some short info about your pets symptoms" cols="30" rows="7"></textarea>
-                <input type="submit" value="Submit">
+                <textarea name="symptoms" id="symptoms" placeholder="Give us some short info about your pets symptoms" cols="30" rows="7" class="appointments-text"></textarea>
+                <br>
+                <input type="submit" value="Submit" class="appointments-button">
             </form>
         </section>
     </main>
