@@ -225,10 +225,12 @@ footer a {
     /* Appointments Section */
     #appointments > div {
         display:flex;
+        justify-content: space-between;
     }
 
     .decorative-picture {
         display: block;
         width:400px;
+        border: 1px solid #089BF5;
     }
 }
