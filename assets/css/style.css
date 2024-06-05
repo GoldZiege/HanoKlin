@@ -124,8 +124,13 @@ main {
 }
 
 /* Appointments Section */
+.decorative-picture {
+    display:none;
+}
+
 form {
-    margin: 10px 10px;
+    max-width: fit-content;
+    margin: auto;
 }
 
 #appointments > h2 {
@@ -217,4 +222,13 @@ footer a {
         
     }
 
+    /* Appointments Section */
+    #appointments > div {
+        display:flex;
+    }
+
+    .decorative-picture {
+        display: block;
+        width:400px;
+    }
 }
