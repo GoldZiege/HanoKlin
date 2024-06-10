@@ -132,7 +132,7 @@ form {
     margin: auto;
 }
 
-#appointments > h2 {
+#appointments > h2, #form-feedback > h2 {
     background-color: #055D94;
     color: #ffffff;
 }
@@ -229,7 +229,7 @@ footer a {
     }
 
     /* Appointments Section */
-    #appointments > div {
+    #appointments > div, #form-feedback > div {
         display:flex;
         margin: auto;
         max-width:1000px;
