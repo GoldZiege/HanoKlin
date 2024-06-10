@@ -115,7 +115,8 @@ main {
     border: 1px solid #089BF5;
 }
 
-.services-picture > h3{
+figcaption {
+    font-size: 150%;
     position: relative;
     background-color: #089BF5;
     color: #ffffff;
