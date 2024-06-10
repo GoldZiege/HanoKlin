@@ -52,7 +52,7 @@ main {
 
 /* Hero Section*/
 #hero {
-    background: url("../images/bulldog.jpg") no-repeat center center/cover;
+    background: url("../images/bulldog.webp") no-repeat center center/cover;
     height: 500px;
     width: 100%;
 }
