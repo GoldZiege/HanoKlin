@@ -20,7 +20,7 @@ header {
     width: 100%;
     min-height: 10vh;
     color: #ffffff;
-    background-color: #089BF5;
+    background-color: #055D94;
     display: flex;
     justify-content: space-between;
     z-index: 10;
@@ -59,7 +59,7 @@ main {
 
 #greeting {
     z-index: 2;
-    background-color: #089BF5;
+    background-color: #055D94;
     font-size: 80%;
     color: #ffffff;
     width: 200px;
@@ -84,7 +84,7 @@ main {
 }
 
 .section-headline {
-    background-color: #089BF5;
+    background-color: #055D94;
     color: #ffffff;
 }
 
@@ -95,7 +95,7 @@ main {
 }
 
 #address > p {
-    color: #089BF5;
+    color: #055D94;
     margin: 0 10px;
 }
 
@@ -112,13 +112,13 @@ main {
 
 .services-picture > img{
     width: 100%;
-    border: 1px solid #089BF5;
+    border: 1px solid #055D94;
 }
 
 figcaption {
     font-size: 150%;
     position: relative;
-    background-color: #089BF5;
+    background-color: #055D94;
     color: #ffffff;
     bottom: 50px;
     width:fit-content;
@@ -135,21 +135,21 @@ form {
 }
 
 #appointments > h2 {
-    background-color: #089BF5;
+    background-color: #055D94;
     color: #ffffff;
 }
 
 form > label {
-    color:#089BF5;
+    color:#055D94;
 }
 
 .appointments-text {
-    border: 1px solid #089BF5;
+    border: 1px solid #055D94;
     border-radius: 3px;    
 }
 
 .appointments-button {
-    background-color: #089BF5;
+    background-color: #055D94;
     color: #ffffff;
     border-radius: 3px;
     width: 100px;
@@ -158,7 +158,7 @@ form > label {
 /* Footer */
 footer {
     min-height: 10vh;
-    background-color: #089BF5;
+    background-color: #055D94;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -226,12 +226,14 @@ footer a {
     /* Appointments Section */
     #appointments > div {
         display:flex;
+        margin: auto;
+        max-width:1200px;
         justify-content: space-between;
     }
 
     .decorative-picture {
         display: block;
-        width:400px;
-        border: 1px solid #089BF5;
+        width:300px;
+        border: 1px solid #055D94;
     }
 }
