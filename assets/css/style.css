@@ -77,7 +77,7 @@ main {
     justify-content: space-between;
 }
 
-#contact-points > div {
+#contact-points > section {
     margin-bottom: 30px;
 }
 
