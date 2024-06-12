@@ -29,3 +29,28 @@ HanoClin is a website for a fictional animal clinic in Hanover made with html an
 - In the services section the user finds all the major services the clinic provides depicted by photographs with captions. This helps the user to decide wether HanoClin is the right clinic for their pet.
 
 ![Screenshot of the services section](docs/services.png)
+
+### Appointments section
+- The appointments section has a form for the user to request an appointment at the clinic. This feature is useful for people who want to make an appointment at a time when the clinic staff is not available via phone.
+
+![Screenshot of the appointments section](docs/appointments.png)
+
+### Feedback page
+- The feedback page informs those who fill out the appointments form that the clinic will reach out to them per email at a later point in time.
+
+![Screenshot of the feedback page](docs/feedback.png)
+
+## Testing
+
+### Validators
+
+***HTML***
+1. **Section lacks heading:**
+    - **Issue found:** Two Sections were found that had no heading. The first was in index.html with the id map. The second was in the services section with the id services-gallery
+    - **Solution:** As I didn't want to add headings to these sections, I changed the id map section tag to a div tag and I deleted the second section all together and added the services-gallery id to the main tag of services.html instead.
+
+2. **Stray end tag:**
+    - **Issue found:** A stray end tag was found in all html files in the footer. 
+    - **Solution:** I erased all the stray tags.
+
+### Lighthouse scores
