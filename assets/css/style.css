@@ -75,6 +75,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 1000px;
+    margin:auto;
 }
 
 #contact-points > section {

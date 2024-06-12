@@ -53,4 +53,14 @@ HanoClin is a website for a fictional animal clinic in Hanover made with html an
     - **Issue found:** A stray end tag was found in all html files in the footer. 
     - **Solution:** I erased all the stray tags.
 
+***CSS***
+- No issues were found in the css file
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="CSS ist valide!" />
+    </a>
+</p>
+
 ### Lighthouse scores
