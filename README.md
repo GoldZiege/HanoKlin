@@ -42,6 +42,15 @@ HanoClin is a website for a fictional animal clinic in Hanover made with html an
 
 ## Testing
 
+### Manual Testing
+- During testing, I used four different browsers to ensure cross-compatibility. The browsers used were:
+    1. Firefox
+    2. Chrome
+    3. Edge
+    4. Opera
+
+- I used the devtools to simulate different screen sizes/devices from 320 px up to 2000px in width.
+
 ### Validators
 
 ***HTML***
@@ -64,3 +73,32 @@ HanoClin is a website for a fictional animal clinic in Hanover made with html an
 </p>
 
 ### Lighthouse scores
+
+#### Desktop:
+I added only one screenshot for the desktop version as the scores were the same for all pages with only slight variations of 1-2 points in multiple tests.
+
+![Screenshot of lighthouse desktop test](docs/lighthouse-services.png)
+
+The best practices score started at 98 points as I forgot to add a title to the iframe element on index.html. After adding the title all best practices scores were 100.
+
+#### Mobile:
+
+Due to strong variations in the performance score. I added one screenshot for every page.
+- index.html and services.html had the strongest variations in performance
+    - index.html performance score varied between 80 and 88
+    - services.html performance score varied between 60 and 93
+
+##### index.html:
+![screenshot of lighthouse mobile test for index.html](docs/lighthouse-index-mobile.png)
+
+##### services.html:
+![screenshot of lighthouse mobile test for services.html](docs/lighthouse-services-mobile.png)
+
+##### appointments.html
+![screenshot of lighthouse mobile test for appointments.html](docs/lighthouse-appointments-mobile.png)
+
+##### form-feedback.html
+![screenshot of lighthouse mobile test for form-feedback.html](docs/lighthouse-feedback-mobile.png)
+
+### WAVE
+In addition I used the web accessibility evaluation tool (WAVE) and no errors were found.
