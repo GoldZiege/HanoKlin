@@ -108,10 +108,15 @@ main {
 #services-gallery{
     display:flex;
     flex-direction: column;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .services-picture > img{
     width: 100%;
+    max-width: 400px;
     border: 1px solid #055D94;
 }
 
