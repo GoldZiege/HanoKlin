@@ -102,3 +102,11 @@ Due to strong variations in the performance score. I added one screenshot for ev
 
 ### WAVE
 In addition I used the web accessibility evaluation tool (WAVE) and no errors were found.
+
+## Deployment
+The site was deployed to GitHub pages. The following steps were needed:
+1. From the project's repository, go to the Settings tab.
+2. On the left, go to the Pages tab.
+3. Under Branch, choose main from the drop-down menu.
+4. Click save and refresh the page
+5. On the top of the pages tab, it shows successful deployment. 
