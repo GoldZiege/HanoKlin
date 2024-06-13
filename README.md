@@ -110,3 +110,23 @@ The site was deployed to GitHub pages. The following steps were needed:
 3. Under Branch, choose main from the drop-down menu.
 4. Click save and refresh the page
 5. On the top of the pages tab, it shows successful deployment. 
+
+## Credits
+
+### General
+- The project was influenced by the Code Institutes code along project called Love running. I tried to deviate from the code as much as possible. Nevertheless there may be similarities.
+- I used W3schools, MDN web docs and the Code Inistitute HTML and CSS essentials content as general reference
+
+### Content
+- All text was written by myself.
+- I referenced the YouTube tutorial [How to Center in CSS - EASY ( Center Div and Text Vertically and Horizontally )](https://www.youtube.com/watch?v=QdITQ4upjME) by [garnatti one](https://www.youtube.com/@garnattione) for instructions on how to center divs horizontally.
+
+### Media
+
+- The hero image was made by <a href="https://unsplash.com/de/@karsten116?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Karsten Winegeart</a> for <a href="https://unsplash.com/de/fotos/weiss-schwarzer-hund-mit-kurzem-mantel-in-weiss-schwarzem-polka-dot-shirt-loJL4ijUobg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- The picture for soft tissue surgery was made by <a href="https://unsplash.com/de/@arturtumasjan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Artur Tumasjan</a> for <a href="https://unsplash.com/de/fotos/frau-tragt-grune-gesichtsmaske-qLzWvcQq-V8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- The pictures for [physical examination](https://www.pexels.com/de-de/foto/mann-hund-haustier-technologie-6235231/) and [ultrasound](https://www.pexels.com/de-de/foto/mann-frau-tier-hund-6235653/) were made by Tima Miroshnichenko for [pexels.com](https://www.pexels.com)
+- The picture for the [MRI](https://www.pexels.com/de-de/foto/technologie-krankenhaus-medizin-medikament-7089024/) was made by MART  PRODUCTION for [pexels.com](https://www.pexels.com)
+- The picture for [digital radiology](https://www.pexels.com/de-de/foto/laptop-zahne-zahnarzt-ergebnis-5622259/) was made by Gustavo Fring for [pexels.com](https://www.pexels.com)
+- The picture for [vaccination](https://www.pexels.com/de-de/foto/haustier-pelzig-medikation-spritze-7155697/) was made by Önder Örtel for [pexels.com](https://www.pexels.com)
+- The pictures of the [dog doctor](https://www.pexels.com/de-de/foto/kleiner-hund-im-hellen-studio-der-medizinische-uniform-tragt-5732464/) and the [dog nurse](https://www.pexels.com/de-de/foto/tier-hund-haustier-niedlich-5733423/) for the appointments section were made by Sam Lion for [pexels.com](https://www.pexels.com)
