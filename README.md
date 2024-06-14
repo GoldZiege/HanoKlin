@@ -119,6 +119,7 @@ The site was deployed to GitHub pages. The following steps were needed:
 
 ### Content
 - All text was written by myself.
+- All icons in the footer as well as the icon in the logo are taken from [FontAwesome](https://fontawesome.com/)
 - I referenced the YouTube tutorial [How to Center in CSS - EASY ( Center Div and Text Vertically and Horizontally )](https://www.youtube.com/watch?v=QdITQ4upjME) by [garnatti one](https://www.youtube.com/@garnattione) for instructions on how to center divs horizontally.
 
 ### Media
@@ -130,3 +131,6 @@ The site was deployed to GitHub pages. The following steps were needed:
 - The picture for [digital radiology](https://www.pexels.com/de-de/foto/laptop-zahne-zahnarzt-ergebnis-5622259/) was made by Gustavo Fring for [pexels.com](https://www.pexels.com)
 - The picture for [vaccination](https://www.pexels.com/de-de/foto/haustier-pelzig-medikation-spritze-7155697/) was made by Önder Örtel for [pexels.com](https://www.pexels.com)
 - The pictures of the [dog doctor](https://www.pexels.com/de-de/foto/kleiner-hund-im-hellen-studio-der-medizinische-uniform-tragt-5732464/) and the [dog nurse](https://www.pexels.com/de-de/foto/tier-hund-haustier-niedlich-5733423/) for the appointments section were made by Sam Lion for [pexels.com](https://www.pexels.com)
+
+### Special Thanks
+- to my mentor David Bowers for his useful help, hints and tips.
